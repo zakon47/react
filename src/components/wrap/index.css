@@ -1,0 +1,23 @@
+
+.wrap{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.head{
+  flex-grow: 0;
+  flex-shrink: 0;
+  background: #66bf3c;
+  color: #fff;
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  background: yellow;
+  color: #000;
+  height: 400px;
+  padding: 40px;
+  overflow: auto;
+}
